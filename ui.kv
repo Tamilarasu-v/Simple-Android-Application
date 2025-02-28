@@ -1,0 +1,11 @@
+BoxLayout:
+    orientation: 'vertical'
+    Label:
+        text: "Expense Tracker"
+        font_size: 24
+    Button:
+        text: "Add Expense"
+        on_press: app.show_add_expense_popup()
+    Button:
+        text: "View Reports"
+        on_press: app.show_chart()
